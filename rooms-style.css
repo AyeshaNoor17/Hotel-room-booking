@@ -1,0 +1,128 @@
+.table-con {
+  border-radius: 25px;
+  padding: 5%;
+  padding-bottom: 0%;
+  background-image: url(pics/signinbg.jpg);
+  /* background-image: linear-gradient(to left,#3f86da,#0066FF,#0e529b,#103f72 ); */
+  /* background-image: linear-gradient(to left,black,blue); */
+}
+.table-con h1 {
+  color: #eaf0f7;
+  font-weight: 600;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.table-con .head {
+  background-image: url(pics/signinbg.jpg);
+  border-radius: 25px;
+  color: white;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.table-con tr {
+  border-radius: 25px;
+  color: white;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.table-con tr:hover {
+  background-color: #3388f0af;
+}
+
+/* ================form room=================== */
+.room-form {
+  background-image: url(pics/pexels-skylar-kang-6044198.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.room-form input {
+  color: white;
+  /* border-right: none;
+    border-left: none;
+    border-top: none; */
+  border: solid 1px #022f60;
+  background: none;
+  padding: 3%;
+  background-color: black;
+  border-radius: 10px;
+  /* margin: 2%; */
+}
+.room-form .sub-btn {
+  margin-left: 30%;
+  padding: 4%;
+  /* background: transparent; */
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border: #022f60 solid 1px;
+}
+
+.room-form .sub-btn:hover {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border: #022f60 solid 1px;
+}
+::placeholder {
+  color: royalblue;
+}
+.room-form input:focus {
+  outline: none;
+}
+.side-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+.headings {
+  text-align: center;
+  color: white;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 400;
+}
+.headings div {
+  align-self: center;
+}
+
+.headings h1,
+p {
+  text-align: left;
+}
+.headings img {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  /* animation: fadepic;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+  animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadepic {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+label {
+  color: white;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 400;
+}

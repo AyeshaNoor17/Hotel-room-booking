@@ -1,0 +1,188 @@
+body{
+    background-image: url(PICS/signinbg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.login-form{
+    margin: 3% 8%;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #022f60,black,#022f60,#022f60, #00428a);
+    background-color: white;
+    
+}
+.logo-signin{
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 50px;
+    margin-top: 23px;
+    
+}
+
+.data-signin{
+    background-image:url(pics/pexels-osmany-mederos-12243342.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.login{
+    text-align: center;
+    
+    border-radius: 10px;
+} 
+.login h1{
+    font-weight: 600;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: white;
+}
+.login h1 span{
+    font-family: 'UnifrakturMaguntia', cursive;
+    color:#00428a;
+}
+.login h6{
+    /* font-weight: 600;
+    font-family: 'Noto Serif Toto', serif; */
+    color: white;
+}
+.submit-btn{
+    padding: 2%;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border: #022f60 solid 1px;
+}
+.submit-btn:hover{
+    background-image: linear-gradient(to right,black,#022f60,black);
+    border: black solid 1px;
+}
+.name-input{
+    padding: 2%;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+.name-input:focus{
+    outline: none;
+}
+.pass-input{
+    padding: 2%;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+.pass-input:focus{
+    outline: none;
+}
+.new-acc{
+    text-align: center;
+    padding: 7%;
+    color: thistle;
+}
+.create-new{
+    padding: 8%;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border: #022f60 solid 1px;
+}
+.create-new:hover{
+    background-image: linear-gradient(to right,black,#022f60,black);
+    border: black solid 1px;
+}
+
+/*==================registeration======================*/
+
+.reg-form h1{
+    text-align: center;
+    color: white;
+    border: solid 2px #022f60 ;
+    border-radius: 15px;
+}
+.reg-form h1 span{
+    color: #022f60;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 700;
+    
+}
+.reg-form h4{
+    /* background-color: antiquewhite; */
+    /* color: #022f60; */
+    /* border-radius: 15px; */
+    color: white;
+    /* font-size: smaller; */
+    /* text-decoration: underline;  */
+}
+.reg-form h4 span{
+    color: royalblue;
+    font-weight: 700;
+    text-decoration: underline #022f60;
+
+}
+.reg-name{
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    width: 80%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid 3px #022f60;
+    background: none;
+    
+}
+.reg-name:focus{
+    outline: none;
+}
+.reg-pass{
+    color: white;
+    padding: 2%;
+    width: 80%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid 3px #022f60;
+    background: none;
+}
+.reg-pass:focus{
+    outline: none;
+}
+.reg-email{
+    color: white;
+    padding: 2%;
+    width: 80%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid 3px #022f60;
+    background: none;
+}
+.reg-email:focus{
+    outline: none;
+}
+.reg-num{
+    color: white;
+    padding: 2%;
+    width: 80%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid 3px #022f60;
+    background: none;
+}
+.reg-num:focus{
+    outline: none;
+}
+.reg-form{
+    text-align: center;
+}
+
+

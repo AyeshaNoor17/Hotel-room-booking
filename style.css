@@ -1,0 +1,101 @@
+:root{ --main-color: #7F710C; }
+.pricingTable{
+    color: #fff;
+    background: var(--main-color);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 15px 15px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+.pricingTable:before{
+    content: "";
+    background: rgba(0,0,0,.3);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border-radius: 30px 30px;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index:-1;
+}
+.pricingTable .pricingTable-header{
+    background: rgba(255,255,255,0.23);
+    padding: 10px;
+    margin: 0 0 30px;
+    border-radius: 30px;
+}
+.pricingTable .title{
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+}
+.pricingTable .price-value{ margin: 0 0 30px; }
+.pricingTable .price-value .amount{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+    display: block;
+}
+.pricingTable .pricing-content{
+    padding: 0;
+    margin: 0 0 30px;
+    list-style: none;
+    display: inline-block;
+}
+.pricingTable .pricing-content li{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: .5px;
+    padding: 0 0 0 30px;
+    margin: 0 0 15px;
+    position: relative;
+}
+.pricingTable .pricing-content li:last-child{ margin: 0; }
+.pricingTable .pricing-content li:before{
+    color: var(--main-color);
+    background-color: #fff;
+    content: "\f00c";
+    font-family: "Font Awesome 5 free";
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 21px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+.pricingTable .pricing-content li.disable:before{ content: "\f00d"; }
+.pricingTable .pricingTable-signup a{
+    color:#fff;
+    background: rgba(255,255,255,0.23);
+    font-size: 20px;
+    font-weight: 600;
+     border-radius: 50%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.pricingTable .pricingTable-signup a:hover{ 
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6); 
+    border-radius: 30px 30px;
+}
+.pricingTable.blue{ --main-color: #21475C; }
+.pricingTable.magenta{ --main-color: #971F45; }
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin: 0 0 58px; }
+}
+License Terms
